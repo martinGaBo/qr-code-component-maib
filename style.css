@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+width: 26%;
+padding: 30px;
+margin:auto;
+}
+body{
+    display: flex;
+}
+
+#fondo{
+    width: 34%;
+}
+
+#tarjeta_1{
+    position: absolute;
+margin: 250px 0 0 360px;
+}
+
+#tarjeta_2{
+    position: absolute;
+    margin: 480px 0 0 430px;
+}
+
+h1{
+    color:hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    margin-top: 30PX;
+}
+
+.content1{
+    border: solid hsl(212, 45%, 89%);
+    width: 80%;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.content2{
+    border: solid hsl(212, 45%, 89%);
+    width: 16%;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#CVC{
+    border: solid hsl(212, 45%, 89%);
+    width: 32%;
+}
+
+.boton{
+    border: none;
+    text-align: center;
+    margin: 10px auto auto 8px;
+    padding: 18px 0 18px 0;
+    border-radius: 8px;
+    width: 92%;
+    background-color: hsl(218, 44%, 22%);
+    color: white;
+}
